@@ -1,0 +1,26 @@
+/*CONTATO START*/
+.contato {
+    background: #E8C05E;
+    display: flex;
+}
+
+.contato-titulo h2 {
+    font-size: 2.25em;
+    color: #FFFFFF;
+    margin: 20px;
+}
+
+.contato-titulo h2::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+    background: #F09102;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+}
+/*CONTATO END*/

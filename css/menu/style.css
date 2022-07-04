@@ -1,0 +1,46 @@
+/*MENU START*/
+.menu-bg {
+    background: #2B2B2B;
+}
+
+.menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu-logo a {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-logo img {
+    width: 65px;
+    height: 65px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover {
+    color: #3CBBB2;
+    border-bottom: 3px solid #3CBBB2;
+}
+/*MENU END*/

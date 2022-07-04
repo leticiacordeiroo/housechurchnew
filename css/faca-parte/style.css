@@ -1,0 +1,52 @@
+/*FACA PARTE START*/
+.facaparte {
+    background: #2B2B2B;
+}
+.facaparte-titulo  h2{
+    font-size: 2.25em;
+    color: #FFFFFF;
+    margin: 20px;
+}
+
+.facaparte-titulo h2::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+    background: #266964;
+}
+.facaparte-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.facaparte-items img {
+    width: 150px;
+    height: 415px;
+}
+
+.facaparte-items img:hover {
+    mix-blend-mode: overlay;
+}
+
+.facaparte-banner img{
+    width: 100%;
+}
+/*FACA PARTE END*/
+
+@media (max-width: 600px)
+{
+    .facaparte-items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+}
