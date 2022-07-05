@@ -44,3 +44,7 @@
     border-bottom: 3px solid #3CBBB2;
 }
 /*MENU END*/
+
+.navbar-collapse {
+    flex-grow: unset !important;
+}

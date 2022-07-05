@@ -43,20 +43,27 @@
 
 .quemsomos-img-primeiro {
     border-left: 8px solid #F09102;
-    height: 300px;
+    height: 15rem;
 }
 
 .quemsomos-img-segundo {
     border-right: 8px solid #F09102;
-    height: 300px;
+    height: 15rem;
 }
 
 .quemsomos-img-primeiro img{
-    height: 300px;
+    height: 15rem;
 }
 
 .quemsomos-img-segundo img{ 
-    height: 300px;
+    height: 15rem;
 }
 
 /*QUEM SOMOS END*/
+
+
+@media (max-width: 600px) {
+    .quemsomos-items p{
+        font-size: 0.8em;
+    }
+}

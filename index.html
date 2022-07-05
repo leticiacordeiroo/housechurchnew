@@ -14,15 +14,43 @@
     <link rel="stylesheet" type="text/css" href="css/contribua/style.css">
     <link rel="stylesheet" type="text/css" href="css/contato/style.css">
     <link rel="stylesheet" type="text/css" href="css/agenda/style.css">
-
-
-
-
-
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="menu-bg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+                <img src="images/hc.png" alt="" width="65" height="65">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#quemsomos">Quem somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#facaparte">Faça Parte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contribua">Contribua</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#agenda">Agenda&Programação</a>
+              </li>
+            </ul>
+        </div>
+        </div>
+      </nav>
+    <!-- <header class="menu-bg">
         <div class="menu">
             <div class="menu-logo">
                 <img src="images/hc.png" alt='house' />
@@ -50,7 +78,7 @@
                 </ul>
             </nav>
         </div>
-    </header>
+    </header> -->
 
     <section class="quemsomos" id="quemsomos">
         <div class="quemsomos-banner">
@@ -93,19 +121,13 @@
         </div>
     </section>
 
-    <section class="contribua" id="contribua">
+    <!-- <section class="contribua" id="contribua">
         <div class="contribua-titulo"><h2>CONTRIBUA</h2></div>
-    </section>
+    </section> -->
 
     <section class="contato" id="contato">
         <div class="contato-titulo">
             <h2>FALE COM A GENTE QUEREMOS TE OUVIR</h2>
-        </div>
-        <div class="contato-form">
-            <input />
-            <input />
-            <textarea></textarea>
-            <button>enviar</button>
         </div>
     </section>
 
@@ -122,29 +144,30 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">
         topo
     </button>
-</body>
 
-<script>
-    //Get the button
-    var mybutton = document.getElementById("myBtn");
-    
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-    
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
     </script>
 
-
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
 </html>
