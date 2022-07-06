@@ -50,3 +50,22 @@ section {
   #myBtn:hover {
     background-color: #555;
   }
+
+
+
+  .bg_video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+  }
+  .content {
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    height: 800px;
+    padding: 20px;
+  }
+  
